@@ -1,4 +1,4 @@
-<!-- REQUIRED JS SCRIPTS -->
+<!-- JS SCRIPTS 12/12/58-->
 <!-- jQuery 2.1.4 -->
 <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
 <!-- Bootstrap 3.3.5 -->

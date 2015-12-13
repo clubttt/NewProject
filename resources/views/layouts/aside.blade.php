@@ -1,4 +1,5 @@
-  <!-- Left side column. contains the logo and sidebar -->
+
+  <!-- aside 12/12/58 -->
     <aside class="main-sidebar">
 
         <!-- sidebar: style can be found in sidebar.less -->
@@ -7,7 +8,7 @@
             <!-- Sidebar user panel (optional) -->
             <div class="user-panel">
                 <div class="pull-left info">
-                    <span>Alexander Pierce</span>
+                    <span>{{$user->name}}</span>
 
             </div>
                 <br>

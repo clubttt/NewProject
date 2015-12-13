@@ -36,4 +36,26 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    public function isAdmin($name)
+    {
+        if($name == "Admin"){
+            return true;
+        }
+        return false;
+    }
+
+    public function isPatient($name)
+    {
+        if($name != "Admin"){
+            return true;
+        }
+
+        return false;
+    }
+
+    public function patient()
+    {
+        return $this->hasOne('Patients');
+   }
 }
